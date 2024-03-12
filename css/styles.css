@@ -685,6 +685,10 @@ height: 40px;
 /* Reviw form styles */
 
 .review-form-field-wrapper {
+  margin-bottom: 8px;
+}
+
+.review-form-field-wrapper.review-form-field-wrapper-textarea {
   margin-bottom: 16px;
 }
 
