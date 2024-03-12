@@ -655,12 +655,18 @@ height: 40px;
    border-radius: 50%;
    border: 1px solid rgba(0, 0, 0, 0.1);
    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-close-btn:hover,
 .modal-close-btn:focus {
   background-color: #404bbf;
   fill: #ffffff;
+  border: none;
+}
+
+.modal-close-btn-icon {
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .review-form-descr {
@@ -679,7 +685,7 @@ height: 40px;
 /* Reviw form styles */
 
 .review-form-field-wrapper {
-  margin-bottom: 16px;
+  margin-bottom: 8px;
 }
 
 .review-form-field-label {
@@ -752,7 +758,7 @@ letter-spacing: 0.04em;
 }
 
 .review-form-checkbox-wrapper {
-  margin-bottom: 8px;
+  margin-bottom: 24px;
 }
 
 .review-form-checkbox-label {
@@ -783,6 +789,7 @@ border: 1px solid rgba(46, 47, 66, 0.4);
 cursor: pointer;
 fill: transparent;
 margin-right: 8px;
+transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .privacy-policy-link {
@@ -815,7 +822,7 @@ color: #4d5ae5;
   min-width: 169px;
   height: 56px;
   cursor: pointer;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .review-form-submit-btn:hover,
