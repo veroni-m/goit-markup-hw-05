@@ -533,7 +533,6 @@ color: #fff;
 .footer-subscribe-container {
   display: flex;
   flex-direction: column;
-  gap: 16px;
 }
 
 .footer-subscribe-text {
@@ -541,8 +540,9 @@ color: #fff;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
-color: #fff;
+color: #ffffff;
 display: block;
+margin-bottom: 16px;
 }
 
 .footer-subscribe-input {
@@ -556,6 +556,9 @@ padding-bottom: 8px;
 background-color: transparent;
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 color: #ffffff;
+font-size: 12px;
+line-height: 2; 
+letter-spacing: 0.04em;
 }
 
 .footer-subscribe-input::placeholder {
@@ -790,7 +793,7 @@ color: #4d5ae5;
 
 .review-form-own-checkbox-icon {
   fill: #ffffff;
-  
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .review-form-submit-btn {
@@ -810,12 +813,13 @@ color: #4d5ae5;
   border: none;
   min-width: 169px;
   height: 56px;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .review-form-submit-btn:hover,
 .review-form-submit-btn:focus {
   background-color: #404bbf;
+  border: none; 
   fill: #ffffff;
 }
 
