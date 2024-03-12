@@ -660,6 +660,7 @@ height: 40px;
 .modal-close-btn:hover,
 .modal-close-btn:focus {
   background-color: #404bbf;
+  fill: #ffffff;
 }
 
 .review-form-descr {
@@ -751,7 +752,7 @@ letter-spacing: 0.04em;
 }
 
 .review-form-checkbox-wrapper {
-  margin-bottom: 24px;
+  margin-bottom: 8px;
 }
 
 .review-form-checkbox-label {
@@ -813,6 +814,7 @@ color: #4d5ae5;
   border: none;
   min-width: 169px;
   height: 56px;
+  cursor: pointer;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -820,7 +822,7 @@ color: #4d5ae5;
 .review-form-submit-btn:focus {
   background-color: #404bbf;
   border: none; 
-  fill: #ffffff;
+  
 }
 
 
